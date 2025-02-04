@@ -1,2 +1,38 @@
 
 /* Your CSS Code here. */
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 90%;
+      margin: 20px auto;
+      border: 2px solid black;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: lightgray;
+    }
+    .nested-table {
+      width: 100%;
+      border: 1px solid black;
+    }
+    .nested-table th {
+      background-color: #c1e1c1;
+    }
+    .html-cell {
+      background-color: black;
+      color: white;
+    }
+    ul {
+      text-align: left;
+      padding-left: 20px;
+    }
